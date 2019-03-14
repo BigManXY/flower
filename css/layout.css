@@ -301,7 +301,7 @@ fieldset[disabled] .btn-theme {
   	[Pricing]
 ------------------------------------------------------------------*/
 .pricing {
-  padding: 70px 45px;
+  padding: 60px 45px;
   background: #fff;
   margin-top: 50px;
 }
@@ -313,8 +313,8 @@ fieldset[disabled] .btn-theme {
 }
 
 .pricing.pricing-active {
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   margin-top: 10px;
 }
 
@@ -357,7 +357,7 @@ fieldset[disabled] .btn-theme {
   position: relative;
   z-index: 1;
   text-align: center;
-  background: url(../img/1920x1080/02.jpg) no-repeat;
+  background: url(../img/2.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -393,7 +393,7 @@ fieldset[disabled] .btn-theme {
   position: relative;
   z-index: 1;
   text-align: center;
-  background: url(../img/1920x1080/01.jpg) no-repeat;
+  background: url(../img/1.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 250px 0 200px;
@@ -907,6 +907,15 @@ fieldset[disabled] .btn-theme {
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
   }
+
+
+  .page-on-scroll .dropdown-menu>li>a {
+    color: #515769 !important;
+  }
+  .page-on-scroll  .dropdown-menu, .page-on-scroll .product .dropdown-menu:hover{
+    background-color: #fff ;
+  }
+
   .page-on-scroll .header .logo-img-main {
     display: none;
     transition-duration: 400ms;
@@ -1237,8 +1246,8 @@ fieldset[disabled] .btn-theme {
 }
 
 .content-lg {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /*------------------------------------------------------------------

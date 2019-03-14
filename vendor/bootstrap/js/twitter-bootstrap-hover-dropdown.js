@@ -1,4 +1,17 @@
-// bootstrap响应式导航条<br data-filtered="filtered">;(function($, window, undefined) {
+/*
+ * Project: Twitter Bootstrap Hover Dropdown
+ * Author: Cameron Spear
+ * Contributors: Mattia Larentis
+ *
+ * Dependencies?: Twitter Bootstrap's Dropdown plugin
+ *
+ * A simple plugin to enable twitter bootstrap dropdowns to active on hover and provide a nice user experience.
+ *
+ * No license, do what you want. I'd love credit or a shoutout, though.
+ *
+ * http://cameronspear.com/blog/twitter-bootstrap-dropdown-on-hover-plugin/
+ */
+;(function($, window, undefined) {
     // outside the scope of the jQuery plugin to
     // keep track of all dropdowns
     var $allDropdowns = $();
